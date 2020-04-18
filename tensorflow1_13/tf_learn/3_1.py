@@ -26,6 +26,11 @@ y_data = tf.placeholder(tf.float32, [None, 10])  # 占位符：样本目标变�
 # a = mnist.train.images[2]
 # b = a.reshape([28, 28])*255
 # plt.imshow(b)
+# plt.show()
+# 输出图片保存在了mnistdata4.png
+# 本身是黑白的 图片的是彩色的是因为plt的解析
+# 如果打印不出来 换一个console试下
+# ↑ ???原因未知
 
 # '''
 # 交叉熵 cross-entropy

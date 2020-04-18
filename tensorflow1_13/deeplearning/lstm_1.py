@@ -9,7 +9,8 @@ from tensorflow.examples.tutorials.mnist import input_data
 from PIL import Image
 
 config = tf.ConfigProto()
-sess = tf.Session(config=config)
+# sess = tf.Session(config=config)
+sess = tf.Session()
 mnist = input_data.read_data_sets('/path/to/MNIST_data', one_hot=True)
 print(mnist.train.images.shape)
 
@@ -79,11 +80,25 @@ images = mnist.test.images
 labels = mnist.test.labels
 print("test accuracy %g" % sess.run(accuracy, feed_dict={_X: images, y: labels, keep_prob: 1.0,
                                                          batch_size: mnist.test.images.shape[0]}))
+'''
+output:
+step 200, training accuracy 0.804688
+step 400, training accuracy 0.90625
+step 600, training accuracy 0.960938
+step 800, training accuracy 0.9375
+step 1000, training accuracy 0.96875
+test accuracy 0.9573
+'''
 
-current_y = mnist.train.labels[5]
-current_x = mnist.train.images[5]
+current_y = mnist.train.labels[5000]
+current_x = mnist.train.images[5000]
 print(current_y)
-plt.show(current_x)
+# output:array([0., 0., 0., 1., 0., 0., 0., 0., 0., 0.])
+r = current_x.reshape([28, 28]) * 255
+plt.imshow(r)  # 不可以使用plt.show(r)的方式
+plt.show()
+# 输出图片保存在了mnistdata3.png
+# 与current_y对应
 
 # 将原始数据进行转换，变为模型能够识别
 current_x.shape = [-1, 784]
@@ -107,3 +122,4 @@ for i in range(current_outputs.shape[0]):
     plt.bar(bar_index, pro[0], width=0.2)
     plt.axis('off')
 plt.show()
+# 输出图片保存在了outout1.png
