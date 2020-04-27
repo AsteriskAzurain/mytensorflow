@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-
 import tensorflow as tf
 import numpy as np
 
@@ -22,7 +21,7 @@ print(x_train[0])
 print(y_train[:10])
 
 '''
-# from 人家
+# 借鉴
 total_words = 10000
 (x_train, y_train), (x_test, y_test) = tf.keras.datasets.reuters.load_data(num_words=total_words)
 print(x_train.shape, y_train.shape, x_test.shape, y_test.shape)
@@ -58,7 +57,7 @@ print(leng[:3])  # [80 56 80]
 
 tf.reset_default_graph()
 
-BATCH_SIZE = 100  # 批次
+BATCH_SIZE = 128  # 批次
 # 定义数据集
 dataset = tf.data.Dataset.from_tensor_slices(((x_train, leng), y_train)).shuffle(1000)
 dataset = dataset.batch(BATCH_SIZE, drop_remainder=True)
@@ -167,9 +166,9 @@ optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(cost)
 iterator1 = tf.data.Iterator.from_structure(dataset.output_types, dataset.output_shapes)
 one_element1 = iterator1.get_next()  # 获取一个元素
 # one_element1:
-# ((<tf.Tensor 'IteratorGetNext:0' shape=(100, 80) dtype=int32>,
-#   <tf.Tensor 'IteratorGetNext:1' shape=(100,) dtype=int64>),
-#  <tf.Tensor 'IteratorGetNext:2' shape=(100,) dtype=int64>)
+# ( 1.tuple (<tf.Tensor 'IteratorGetNext:0' shape=(100, 80) dtype=int32>,
+#           <tf.Tensor 'IteratorGetNext:1' shape=(100,) dtype=int64>),
+#   2.<tf.Tensor 'IteratorGetNext:2' shape=(100,) dtype=int64>)
 
 # 训练网络
 with tf.Session() as sess:
@@ -185,7 +184,6 @@ with tf.Session() as sess:
                 alloss.append(loss)
 
             except tf.errors.OutOfRangeError:
-                # print("遍历结束")
                 print("step", ii + 1, ": loss=", np.mean(alloss))
                 sess.run(iterator1.make_initializer(dataset))  # 从头再来一遍
                 break

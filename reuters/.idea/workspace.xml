@@ -2,71 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7feabc13-d28c-4555-a9fe-1f6cfa047cfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/Easy_Lstm_Cnn-master.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/LSTM_CNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/Parameters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/Training.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/checkpoints/Lstm_CNN/best_validation-1564.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/checkpoints/Lstm_CNN/best_validation-1564.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/checkpoints/Lstm_CNN/best_validation-1564.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/checkpoints/Lstm_CNN/best_validation-2346.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/checkpoints/Lstm_CNN/best_validation-2346.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/checkpoints/Lstm_CNN/best_validation-2346.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/checkpoints/Lstm_CNN/best_validation-782.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/checkpoints/Lstm_CNN/best_validation-782.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/checkpoints/Lstm_CNN/best_validation-782.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/checkpoints/Lstm_CNN/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/data/stopwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/data/vector_word.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/data/vocab_word.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/data_processing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/image/predict.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/image/train.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/my_lstm_cnn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Easy_Lstm_Cnn/tensorboard/Lstm_CNN/events.out.tfevents.1548675677.xuxiangjundeMacBook-Air.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorFlow2.0教程-使用RNN实现文本分类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/dataprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reuters.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lzx_RNN_RoutingMask_Model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reutersdata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try2_lstm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/word2vec.model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/9-7  用带有动态路由算法的RNN模型对新闻进行分类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/Lstm_Cnn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/Parameters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/Training.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/checkpoints/Lstm_CNN/best_validation-1564.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/checkpoints/Lstm_CNN/best_validation-1564.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/checkpoints/Lstm_CNN/best_validation-1564.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/checkpoints/Lstm_CNN/best_validation-2346.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/checkpoints/Lstm_CNN/best_validation-2346.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/checkpoints/Lstm_CNN/best_validation-2346.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/checkpoints/Lstm_CNN/best_validation-782.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/checkpoints/Lstm_CNN/best_validation-782.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/checkpoints/Lstm_CNN/best_validation-782.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/checkpoints/Lstm_CNN/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/data/stopwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/data/vector_word.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/data/vocab_word.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/data_processing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/image/predict.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/image/train.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/my_lstm_cnn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/tensorboard/Lstm_CNN/events.out.tfevents.1548675677.xuxiangjundeMacBook-Air.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tensorflow1_13/Easy_Lstm_Cnn-master/tensorboard/Lstm_CNN/events.out.tfevents.1587923055.DESKTOP-I4AT495" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/reuters.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reuters.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9-7  用带有动态路由算法的RNN模型对新闻进行分类.py" beforeDir="false" afterPath="$PROJECT_DIR$/9-7  用带有动态路由算法的RNN模型对新闻进行分类.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task.md" beforeDir="false" afterPath="$PROJECT_DIR$/task.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try0.py" beforeDir="false" afterPath="$PROJECT_DIR$/try0.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,17 +52,17 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\git\repository\mytensorflow\reuters\Easy_Lstm_Cnn" />
-      <recent name="D:\git\repository\mytensorflow\reuters\Easy_Lstm_Cnn\tensorboard\Lstm_CNN" />
-      <recent name="D:\git\repository\mytensorflow\reuters" />
-      <recent name="D:\git\repository\mytensorflow\reuters\data" />
-      <recent name="D:\Documents\pythonproject\reuters" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\git\repository\mytensorflow\reuters" />
       <recent name="D:\git\repository\mytensorflow\reuters\Easy_Lstm_Cnn" />
       <recent name="D:\Documents\pythonproject\reuters" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\repository\mytensorflow\reuters\code" />
+      <recent name="D:\git\repository\mytensorflow\reuters\Easy_Lstm_Cnn" />
+      <recent name="D:\git\repository\mytensorflow\reuters\Easy_Lstm_Cnn\tensorboard\Lstm_CNN" />
+      <recent name="D:\git\repository\mytensorflow\reuters" />
+      <recent name="D:\git\repository\mytensorflow\reuters\data" />
     </key>
   </component>
   <component name="RunManager" selected="Python.data_processing">
@@ -131,6 +70,9 @@
       <module name="reuters" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Easy_Lstm_Cnn" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -150,6 +92,9 @@
       <module name="reuters" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Easy_Lstm_Cnn" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -191,6 +136,9 @@
       <module name="reuters" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Easy_Lstm_Cnn" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -232,6 +180,7 @@
       <workItem from="1587476637836" duration="7921000" />
       <workItem from="1587579195878" duration="24007000" />
       <workItem from="1587882741676" duration="36725000" />
+      <workItem from="1587946547694" duration="1121000" />
     </task>
     <servers />
   </component>
@@ -258,10 +207,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="13" y="49" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1280.680@0.0.1280.680" timestamp="1587260033979" />
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1587882745772">
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1587946617436">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587882745772" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587946617436" />
     <state x="0" y="0" width="686" height="680" key="find.popup" timestamp="1587883352277">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

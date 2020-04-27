@@ -45,6 +45,22 @@
 
 ---
 
+data preparation
+通过tf.keras.datasets.reuters接口加载数据集
+每句保留80个词 不足的补0
+定义数据集
+将样本数据按照指定批次制作成tf.data.Dataset接口的数据集
+并将不足一批次的剩余数据丢弃
+批次(batch_size)设为128
+batch 处理数据的时候让 drop_remainder = True, 这样可以丢弃掉最后一个数量不足 batch size 的 batch.
+使用动态路由(Dynamic Routing)聚合信息
+1 将data(x)转换为vendor
+2 使用rnn计算
+3 rnn输出 -全连接层-> 动态路由中的uhat
+4 进行动态计算 得到最终的输出
+
+---
+
 ### RNN模型建立
 - 在 keras 当中我们有两种方式建立 RNN 模型，比较推荐的方式是调用 layers.SimpleRNN 类，比较简单，不需要手动处理层与层之间的状态信息。
 - 另一种方式是调用 layers.SimpleRNNCell，这种方式比较底层，需要手动处理层与层之间的状态信息。这种方式虽然麻烦，但是有利于加深对 RNN 的理解。

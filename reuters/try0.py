@@ -33,8 +33,6 @@ print(x_train.shape, y_train.shape, x_test.shape, y_test.shape)
 # 批次(batch_size)设为128
 ds_train = tf.data.Dataset.from_tensor_slices((x_train, y_train))
 ds_test = tf.data.Dataset.from_tensor_slices((x_test, y_test))
-
-
 # ↑ tf.data.Dataset.from_tensor_slices
 # ↑ 该函数是dataset核心函数之一，它的作用是把给定的元组、列表和张量等数据进行特征切片
 # ↑ 元素逐个转换为Tensor对象然后依次放入Dataset中
@@ -49,8 +47,6 @@ def preprocess(x, y):  # 将标签 y 进行了 one hot 编码
 # shuffle and batch dataset and drop the last batch shorter than batch_size
 ds_train = ds_train.shuffle(1000).map(preprocess).batch(batch_size, drop_remainder=True)
 ds_test = ds_test.shuffle(1000).map(preprocess).batch(batch_size, drop_remainder=True)
-
-
 # output: <BatchDataset shapes: ((128, 80), (128, 46)), types: (tf.int32, tf.float32)>
 
 
